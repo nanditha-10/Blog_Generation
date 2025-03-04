@@ -46,6 +46,7 @@ CTransformers is a lightweight wrapper that allows running GGML-based models (li
  4. Alternative Model API → Replicate API (Optional)
     
 🔹 What It Does?
+
 If running Llama 2 locally is slow or resource-intensive, we can use Replicate API to call a cloud-based Llama 2 model.
 The Replicate API allows you to run AI models in the cloud without GPU dependency.
 
