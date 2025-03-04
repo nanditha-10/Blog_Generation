@@ -1,5 +1,3 @@
-# Blog_Generation : 
-
 # Blog Generation using Llama 2 :
 
 PROBLEM:
