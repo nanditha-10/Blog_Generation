@@ -9,9 +9,13 @@ We can generate any blog based on our given topic name, no. of words, blog style
 
 Internal Execution Flow (Step-by-Step)
 📌 Step 1: The user enters blog topic, word count, and audience type in Streamlit.
+
 📌 Step 2: The app formats the input using LangChain’s PromptTemplate.
+
 📌 Step 3: The LLama 2 model is loaded via CTransformers (or Replicate API).
+
 📌 Step 4: The formatted prompt is sent to the model, which generates the blog.
+
 📌 Step 5: The generated blog appears on the Streamlit page for the user to read.
 
 <img width="396" alt="image" src="https://github.com/user-attachments/assets/f43b6f62-db66-4981-9a9d-2b94df56a87d" />
