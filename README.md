@@ -7,7 +7,8 @@ DESCRIPTION :
 We can generate any blog based on our given topic name, no. of words, blog style. we have used Llama 2 a open source llm model to build this Generative AI Project When you run it first time, it will take some time because of download of Model.
 
 
-Internal Execution Flow (Step-by-Step)
+Internal Execution Flow (Step-by-Step):  
+
 📌 Step 1: The user enters blog topic, word count, and audience type in Streamlit.
 
 📌 Step 2: The app formats the input using LangChain’s PromptTemplate.
