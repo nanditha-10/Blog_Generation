@@ -27,17 +27,17 @@ Internal Execution Flow (Step-by-Step):
 Streamlit is used to create the user interface (UI) for the app.
 It allows users to input the blog topic, select word count, and choose a target audience (Researchers, Data Scientists, etc.).
 
-3. Prompt Formatting → LangChain (PromptTemplate)
+2. Prompt Formatting → LangChain (PromptTemplate)
 🔹 What It Does?
 It helps format the input data into a structured prompt that the model can understand.
 Instead of manually writing a string for the model, we use LangChain's PromptTemplate to format user input dynamically.
 
-Model Execution → CTransformers (Llama 2 Model)
+3. Model Execution → CTransformers (Llama 2 Model)
 🔹 What It Does?
 It loads and runs the Llama 2 model to generate text based on the prompt.
 CTransformers is a lightweight wrapper that allows running GGML-based models (like Llama 2) locally.
 
- Alternative Model API → Replicate API (Optional)
+ 4. Alternative Model API → Replicate API (Optional)
 🔹 What It Does?
 If running Llama 2 locally is slow or resource-intensive, we can use Replicate API to call a cloud-based Llama 2 model.
 The Replicate API allows you to run AI models in the cloud without GPU dependency.
